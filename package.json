@@ -1,0 +1,14 @@
+{
+  "name": "humongorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:emilgp/humongorepo.git",
+  "author": "Emil <emilgp@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "steve-app",
+    "thor-app",
+    "mjolnir"
+  ]
+}
