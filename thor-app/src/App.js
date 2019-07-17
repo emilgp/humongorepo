@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import mjolnir from '@herogearstuffs/mjolnir';
+import Mjolnir from '@herogearstuffs/mjolnir';
 import stormbreaker from '@herogearstuffs/stormbreaker';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          your hammer thinks {mjolnir}
+          your hammer thinks <Mjolnir />
           <br />
           your axe thinks {stormbreaker}
         </h1>
