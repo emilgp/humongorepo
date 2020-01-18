@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h3>
-          hodor
+          thor-app {process.env.REACT_APP_STAGE}
         </h3>
       </header>
     </div>
