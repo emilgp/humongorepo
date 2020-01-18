@@ -37,5 +37,18 @@
             "StackId": "arn:aws:cloudformation:ap-southeast-1:559914901382:stack/amplify-thor-app-release-184833/1335c550-39e0-11ea-a5cd-0ad08b3552b8",
             "AmplifyAppId": "d30h0u4w3jf28t"
         }
+    },
+    "staging": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-thor-app-staging-185603-authRole",
+            "UnauthRoleArn": "arn:aws:iam::559914901382:role/amplify-thor-app-staging-185603-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::559914901382:role/amplify-thor-app-staging-185603-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-thor-app-staging-185603-deployment",
+            "UnauthRoleName": "amplify-thor-app-staging-185603-unauthRole",
+            "StackName": "amplify-thor-app-staging-185603",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:559914901382:stack/amplify-thor-app-staging-185603/1f512d60-39e1-11ea-b55d-06ab84d815ba",
+            "AmplifyAppId": "d30h0u4w3jf28t"
+        }
     }
 }
