@@ -10,6 +10,14 @@
             "StackName": "amplify-thor-app-dev-151210",
             "StackId": "arn:aws:cloudformation:ap-southeast-1:559914901382:stack/amplify-thor-app-dev-151210/ae4d0730-38f8-11ea-b1d6-06abab1199f8",
             "AmplifyAppId": "d30h0u4w3jf28t"
+        },
+        "categories": {
+            "auth": {
+                "cognito39969fde": {}
+            },
+            "function": {
+                "thorappedc598ee": {}
+            }
         }
     },
     "test": {
@@ -36,6 +44,11 @@
             "StackName": "amplify-thor-app-release-184833",
             "StackId": "arn:aws:cloudformation:ap-southeast-1:559914901382:stack/amplify-thor-app-release-184833/1335c550-39e0-11ea-a5cd-0ad08b3552b8",
             "AmplifyAppId": "d30h0u4w3jf28t"
+        },
+        "categories": {
+            "auth": {
+                "cognito39969fde": {}
+            }
         }
     },
     "staging": {
