@@ -11,9 +11,10 @@ frontend:
         - yarn workspace steve-app build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /thor-app/build
+    baseDirectory: /
     files:
-      - '**/*'
+      - 'thor-app/build/**/*'
+      - 'steve-app/build/**/*'
   cache:
     paths:
       - node_modules/**/*
