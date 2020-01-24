@@ -8,7 +8,6 @@
   "private": true,
   "workspaces": [
     "steve-app",
-    "thor-app",
-    "herogearstuffs/*"
+    "thor-app"
   ]
 }
