@@ -1,0 +1,40 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "thorappedc598ee",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/GET"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            }
+        }
+    ],
+    "resourceName": "apiddbef0f9",
+    "apiName": "apiddbef0f9",
+    "functionArns": [
+        {
+            "lambdaFunction": "thorappedc598ee"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-thor-app-release-184833-authRole",
+        "unAuthRoleName": "amplify-thor-app-release-184833-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "thorappedc598ee",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
