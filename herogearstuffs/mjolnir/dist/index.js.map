@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["../index.js"],"sourcesContent":["import React from \"react\";\n\nconst Mjolnir = () => (\n    <strong>UWORTHY</strong>\n);\n\nexport default Mjolnir;"],"names":["Mjolnir"],"mappings":";;AAEA,IAAMA,UAAU,SAAVA,OAAU;WACZ;;;;KADY;CAAhB;;;;"}
