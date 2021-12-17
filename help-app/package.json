@@ -35,7 +35,7 @@
     ]
   },
   "devDependencies": {
-    "craco": "0.0.3",
+    "@craco/craco": "^6.4.3",
     "craco-module-federation": "^1.1.0"
   }
 }
