@@ -1,0 +1,13 @@
+{
+  "name": "humongorepo",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:emilgp/humongorepo.git",
+  "author": "Emil Purugganan <emilgp@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "app1",
+    "module1",
+    "module2"
+  ]
+}
