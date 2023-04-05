@@ -10,15 +10,16 @@ export default defineConfig({
     reportCompressedSize: true,
     lib: {
       entry: resolve(__dirname, "src/index.js"),
-      formats: ["es"],
+      name: "VitePackage",
+      fileName: "main"
     },
-  },
-  rollupOptions: {
-    external: ["react"],
-    output: {
-      globals: {
-        react: "react"
+    rollupOptions: {
+      external: ["react", "react-dom"],
+      output: {
+        globals: {
+          react: "react"
+        }
       }
-    }
+    },
   },
 });
